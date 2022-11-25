@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './components/App';
+// import ClassBasedApp from './components/ClassBasedApp';
+import FunctionalBasedApp from './components/FunctionalBasedApp';
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(<App />)
+root.render(
+    <FunctionalBasedApp />
+)
+// root.render(<ClassBasedApp />)

@@ -4,7 +4,7 @@ import Header from "./Header";
 import axios from "axios";
 import UserList from "./UserList";
 
-class App extends Component {
+class ClassBasedApp extends Component {
   state = {
     users: [],
     isLoading: false,
@@ -66,4 +66,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default ClassBasedApp;

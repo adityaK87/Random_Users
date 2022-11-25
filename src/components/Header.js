@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './css/index.css';
+
 
 const Header = ({ heading }) => {
     return (
-        <h1>{heading}</h1>
+        <h1 className='heading' style={{ textAlign: "center" }}>{heading}</h1>
     )
 }
 
