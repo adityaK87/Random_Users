@@ -21,7 +21,7 @@ body {
   .user-container .user-picture {
     border-radius: 50%; }
     .user-container .user-picture:hover {
-      box-shadow: -7px 1px 8px purple; }
+      box-shadow: -7px 1px 8px #9179b8; }
 
 .loader {
   text-align: center; }

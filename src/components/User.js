@@ -2,8 +2,8 @@ import React from "react";
 import "./css/index.css";
 
 const User = ({ user }) => {
-  console.log(user);
-  console.log(user.location.country);
+  // console.log(user);
+  // console.log(user.location.country);
   return (
     <div>
       {user && (
