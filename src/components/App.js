@@ -3,7 +3,6 @@ import "./css/index.css";
 import Header from "./Header";
 import axios from "axios";
 import UserList from "./UserList";
-// import User from "./User";
 
 class App extends Component {
   state = {
@@ -24,28 +23,24 @@ class App extends Component {
     }
   }
 
-  loadUsers = () => {
+  loadUsers = async () => {
     const { page } = this.state  // destructuring the state object
     this.setState({ isLoading: true });
-
-    axios
-      .get(`https://randomuser.me/api/?page=${page}&results=10`)
-      .then((res) => {
-        console.log(res.data);
-        this.setState((prevState) => ({
-          users: [...prevState.users, ...res.data.results]
-        }));
-      })
-
-      .catch((error) =>
-        this.setState({
-          errorMsg: "Error while loading data. Try again later.",
-        }))
-
-      .finally(() =>
-        this.setState({ isLoading: false })
-      );
+    try {
+      let response = await axios.get(`https://randomuser.me/api/?page=${page}&results=10`)
+      this.setState((prevState) => ({
+        users: [...prevState.users, ...response.data.results]
+      }));
+    } catch (error) {
+      this.setState(
+        { errorMsg: "Error while loading data. Try again later.", }
+      )
+    } finally {
+      this.setState({ isLoading: false })
+    }
   }
+
+
 
   loadMore = () => {
     this.setState((prevState) => {
