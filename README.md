@@ -2,7 +2,7 @@
 
 ## 📌 Introduction
 
-This project is fetching Random Users from the <a href="https://randomuser.me/api/?page=1&results=10">API</a> using Async/Await syntax and displaying users to user Component
+This project is fetching Random Users from the <a href="https://randomuser.me/api/?page=1&results=10">API</a> using Async/Await syntax and displaying users to user Component.
 
 ## 🚀 View Live Demo
 

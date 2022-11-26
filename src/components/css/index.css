@@ -59,4 +59,13 @@ body {
   align-items: center;
   margin-bottom: 31px; }
 
+.userCard {
+  width: 50%;
+  background: white;
+  border-radius: 5px;
+  margin: 10px 50px;
+  padding: 3px 0px; }
+  .userCard:hover {
+    box-shadow: 10px 10px 10px #9179b8; }
+
 /*# sourceMappingURL=index.css.map */

@@ -5,7 +5,7 @@ const User = ({ user }) => {
   // console.log(user);
   // console.log(user.location.country);
   return (
-    <div>
+    <div className="userCard">
       {user && (
         <div className="user-container">
           <img
@@ -29,7 +29,7 @@ const User = ({ user }) => {
           </div>
         </div>
       )}
-      <hr />
+      {/* <hr /> */}
     </div>
   );
 };
