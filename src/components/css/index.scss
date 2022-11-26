@@ -64,3 +64,15 @@ body {
     transform: scale(0.99);
   }
 }
+
+.fa-heart:before {
+  content: "\f004";
+  color: red;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 31px;
+}

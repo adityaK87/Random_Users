@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import "./css/index.css";
+import Footer from "./Footer";
 import Header from "./Header";
 import UserList from "./UserList";
 
@@ -52,8 +53,9 @@ const FunctionalBasedApp = () => {
       {userData.errMessage && <p>{userData.errMessage}</p>}
       <UserList users={users} />
       <button className="btn" onClick={loadMore}>
-        {userData.isLoading ? "Loading..." : "Lode More"}
+        {userData.isLoading ? "Loading..." : "Load More"}
       </button>
+      {!userData.isLoading && <Footer />}
     </>
   );
 };

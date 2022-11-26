@@ -3,6 +3,7 @@ import "./css/index.css";
 import Header from "./Header";
 import axios from "axios";
 import UserList from "./UserList";
+import Footer from "./Footer";
 
 class ClassBasedApp extends Component {
   state = {
@@ -61,6 +62,8 @@ class ClassBasedApp extends Component {
         <button className="btn" onClick={this.loadMore}>
           {isLoading ? "Loading.." : "Lode More"}
         </button>
+        {!userData.isLoading && <Footer />}
+
       </>
     );
   }
