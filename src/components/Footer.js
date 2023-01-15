@@ -13,7 +13,7 @@ const Footer = () => {
       <p className="copyright">
         <span className="copyright-section">
           {" "}
-          <a href="https://github.com/adityapal87" target="_blank" rel="noreferrer">
+          <a href="https://github.com/adityaK87" target="_blank" rel="noreferrer">
             <i class="fa-brands fa-github"></i> {new Date().getFullYear()} -
             Aditya Kumar
           </a>

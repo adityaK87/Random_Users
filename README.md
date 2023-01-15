@@ -1,4 +1,4 @@
-# [Random_Users](https://adityapal87.github.io/Random_Users/)
+# [Random_Users](https://adityaK87.github.io/Random_Users/)
 
 ## 📌 Introduction
 
@@ -8,23 +8,23 @@ This project is fetching Random Users from the <a href="https://randomuser.me/ap
 
 <img src="https://img.shields.io/badge/website-up-greene" />
 
-<pre><center><a href="https://adityapal87.github.io/Random_Users/"><b>adityapal87.github.io/Random_Users/</b></a></center></pre>
+<pre><center><a href="https://adityak87.github.io/Random_Users/"><b>adityak87.github.io/Random_Users</b></a></center></pre>
 
 ## 👨‍💻 JavaScript Topics Used
 
-- ES6 Destructuring
-- Import and Export Syntax
-- Arrow functions
-- Promises
-- Async/await
-- Axios for API Calls
+-  ES6 Destructuring
+-  Import and Export Syntax
+-  Arrow functions
+-  Promises
+-  Async/await
+-  Axios for API Calls
 
 ## Tech Stack Used
 
-- React js
-- React Hooks
-- JavaScript
-- Scss for Styling Component
+-  React js
+-  React Hooks
+-  JavaScript
+-  Scss for Styling Component
 
 ## 🛠️ Installation Steps
 
@@ -33,7 +33,7 @@ Star and Fork the Repo 🌟 and this will keep us motivated.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/adityapal87/Random_Users
+git clone https://github.com/adityaK87/Random_Users
 ```
 
 2. Change the working directory
